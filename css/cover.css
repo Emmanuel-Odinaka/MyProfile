@@ -104,3 +104,22 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+/* about page 
+skills part */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 0 2rem;
+  
+}
+img {
+  width: 50%;
+  height: auto;
+  margin-bottom: .8rem;
+}
+.html, .css, .javascript, .bootstrap {
+  margin: .3rem 0 0 .3rem;
+}
